@@ -20,11 +20,11 @@ public class Triplet {
     {
         int max = 0;
         int value = 0;
-        for (int i = 0; i < 6; ++i)
+        for (int i = 0; i < 4; ++i)
         {
-            for (int j = 1; j < 6; ++j)
+            for (int j = i+1; j < 5; ++j)
             {
-                for (int k = 2; k < 6; ++k)
+                for (int k = i+2; k < 6; ++k)
                 {
                     value = tab[i] * tab[j] * tab[k];
                     if (value > max)

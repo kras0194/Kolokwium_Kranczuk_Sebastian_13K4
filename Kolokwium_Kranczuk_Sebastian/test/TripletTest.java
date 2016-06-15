@@ -24,7 +24,6 @@ public class TripletTest {
     public void maxValueTestMethod() {
         Triplet triplet = new Triplet();
         assertTrue(triplet.maxValue() == 60);
-        System.out.println("Max: " + triplet.maxValue());
     }
     
 }
